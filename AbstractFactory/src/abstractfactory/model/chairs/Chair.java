@@ -1,19 +1,17 @@
-package abstractfactory;
+package abstractfactory.model.chairs;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Sofa {
+public class Chair {
 
-    public Sofa(String name) {
+    public Chair(String name) {
         this.name = name;
     }
 
     private String name;
     private String material;
     private int cost;
-    private int seats;
-
 }
